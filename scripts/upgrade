@@ -4,7 +4,6 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
-source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -21,6 +20,8 @@ ynh_script_progression "Upgrading source files..."
 
 ynh_setup_source --dest_dir="$install_dir" --full_replace
 
+chmod +x $install_dir/tinyfeed
+
 #=================================================
 # REAPPLY SYSTEM CONFIGURATION
 #=================================================
@@ -30,7 +31,7 @@ ynh_config_add_nginx
 
 ynh_config_add_systemd
 
-yunohost service add "$app" --description="A short description of the app" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Collection of feeds" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE

@@ -37,7 +37,7 @@ ram.runtime = "50M"
 
     [install.path]
     type = "path"
-    default = "/example"
+    default = "/tinyfeed"
 
     [install.init_main_permission]
     type = "group"
@@ -65,5 +65,3 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
-
-    [resources.ports]

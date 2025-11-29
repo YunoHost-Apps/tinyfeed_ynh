@@ -21,7 +21,7 @@ Generate a static HTML page from a collection of feeds
 
 
 ## Screenshots
-![Screenshot of Tinyfeed](./doc/screenshots/example.jpg)
+![Screenshot of Tinyfeed](./doc/screenshots/screenshots.webp)
 
 ## 📦 Developer info
 
