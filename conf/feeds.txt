@@ -1,0 +1,8 @@
+# Science
+https://news.cnrs.fr/rss
+
+# Informatique
+https://blogbinaire.larecherche.fr/feed
+
+# Design
+https://feeds.feedburner.com/dezeen?format=xml
