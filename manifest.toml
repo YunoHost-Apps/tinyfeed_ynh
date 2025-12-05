@@ -21,7 +21,7 @@ code = "https://github.com/TheBigRoomXXL/tinyfeed"
 [integration]
 yunohost = ">= 12.1.17"
 helpers_version = "2.1"
-architectures = "all"
+architectures = ["amd64", "arm64"]
 multi_instance = true
 
 ldap = false
@@ -56,6 +56,8 @@ ram.runtime = "50M"
     arm64.sha256 = "cde19d8ea4d24376c77b68ec476aa74925b3bb60ff0034fa7562f834d88cf6a6"
 
     autoupdate.strategy = "latest_github_release"
+    autoupdate.asset.amd64 = "tinyfeed_linux_amd64"
+    autoupdate.asset.arm64 = "tinyfeed_linux_arm64"
 
     [resources.system_user]
 
