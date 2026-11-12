@@ -7,7 +7,7 @@ name = "Tinyfeed"
 description.en = "Generate a static HTML page from a collection of feeds"
 description.fr = "Générer une page HTML statique à partir d'un ensemble de flux"
 
-version = "1.5.1~ynh1"
+version = "1.5.2~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -50,10 +50,10 @@ ram.runtime = "50M"
     rename = "tinyfeed"
     in_subdir = false
     extract = false
-    amd64.url = "https://github.com/TheBigRoomXXL/tinyfeed/releases/download/v1.5.1/tinyfeed_linux_amd64"
-    amd64.sha256 = "6de42c8ab6901fda8a80a84c9bfdda03860656f7a6a21a5ddef567adcbf8f6fc"
-    arm64.url = "https://github.com/TheBigRoomXXL/tinyfeed/releases/download/v1.5.1/tinyfeed_linux_arm64"
-    arm64.sha256 = "6de42c8ab6901fda8a80a84c9bfdda03860656f7a6a21a5ddef567adcbf8f6fc"
+    amd64.url = "https://github.com/TheBigRoomXXL/tinyfeed/releases/download/v1.5.2/tinyfeed_linux_amd64"
+    amd64.sha256 = "11bc0d7da919f8c8448be34bba0ddc93fe320e08a7938154b6cfc34b1915b9d2"
+    arm64.url = "https://github.com/TheBigRoomXXL/tinyfeed/releases/download/v1.5.2/tinyfeed_linux_arm64"
+    arm64.sha256 = "11bc0d7da919f8c8448be34bba0ddc93fe320e08a7938154b6cfc34b1915b9d2"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = "tinyfeed_linux_amd64"
